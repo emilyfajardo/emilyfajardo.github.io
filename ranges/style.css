@@ -218,7 +218,7 @@
 	border-right: 30px solid transparent;
 	border-top: 30px solid rgb( 255, 255, 255);
 	transform: rotate( 90deg);
-	transition: border-top 1s ease-in;
+	transition: all 1s ease-in;
 
 }
 
@@ -237,7 +237,7 @@
 	border-right: 30px solid transparent;
 	border-bottom: 30px solid rgb( 255, 255, 255);
 	transform: rotate( 90deg);
-	transition: border-bottom 1s ease-in;
+	transition: all 1s ease-in;
 
 }
 
@@ -272,18 +272,18 @@ p {
 .H1{
 	position:absolute;
 	top: 254px;
-	left: 75px;
+	left: 76px;
 	width: 0;
 	height: 0;
 	border-top: 110px solid transparent;
 	border-right: 110px solid transparent;
 	border-left: 110px solid rgb( 255, 255, 255);
-	transition: border-left 1s ease-in;
+	transition: all 1s ease-in-out;
 }
 
 .H1:hover {
 	border-left: 110px solid rgb( 250, 255, 0);
-	transform: rotate(180deg) scale(2);
+	top: 110px;
 }
 
 .H2{
@@ -295,7 +295,7 @@ p {
 	border-top: 30px solid transparent;
 	border-bottom: 30px solid transparent;
 	border-right: 60px solid rgb( 255, 255, 255);
-	transition: border-right 1s ease-in;
+	transition: all 1s ease-in-out;
 
 }
 
@@ -313,7 +313,7 @@ p {
 	border-left: 50px solid transparent;
 	border-right: 50PX solid transparent;
 	border-top: 100px solid rgb(255, 255, 255);
-	transition: border-top 1s ease-in;
+	transition: all 1s ease-in-out;
 
 }
 
@@ -332,31 +332,31 @@ p {
 	border-top: 180px solid transparent;
 	border-right: 100px solid transparent;
 	border-left: 100px solid rgb(255, 255, 255);
-	transition: border-left 1s ease-in;
+	transition:all 1s ease-in-out;
 
 }
 
 .H4:hover {
 	border-left: 100px solid rgb(255,1,129);
-	transform: rotate(180deg) scale(2);
+	top: 260px;
 }
 
 .H5{
 	position:absolute;	
-	top: 195px;
+	top: 198px;
 	left: 752px;
 	height: 0;
 	width: 0;
 	border-top: 90px solid transparent;
 	border-bottom: -5px solid transparent;
 	border-right: 160px solid rgb( 0, 0, 0);
-	transition: border-right 1s ease-in;
+	transition: all 1s ease-in-out;
 
 }
 
 .H5:hover {
 	border-right: 160px solid rgb( 250, 255, 0);
-	transform: rotate( 180deg) scale(2);
+	left: 690px;
 
 }
 
@@ -369,7 +369,7 @@ p {
 	border-bottom: 40px solid transparent;
 	border-top: 40px solid transparent;
 	border-left: 100px solid rgb( 255, 255, 255);
-	transition: border-left 1s ease-in;
+	transition: all 1s ease-in-out;
 
 }
 
