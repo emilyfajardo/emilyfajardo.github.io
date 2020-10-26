@@ -1,0 +1,75 @@
+h1 {
+	position: absolute;
+	font-family: 'Abril Fatface';
+	font-size:35px;
+	right: 20px;
+	top: 30px;
+	font-weight: 400;
+	color: rgb( 202, 34, 39);
+}
+
+p {
+	position: absolute;
+	font-family: 'Abril Fatface';
+	font-size: 180px;
+	right: 20px;
+	top: -140px;
+	font-weight: 400;
+	color: rgb( 202, 34, 39);
+}
+
+h2 {
+	position: absolute;
+	font-family: "Poppins";
+	font-size: 25px;
+	left: 170px;
+	top: 300px;
+	font-weight: 900;
+	color: rgb( 221, 207, 175);
+}
+
+h3 {
+	position: absolute;
+	font-family: "poppins";
+	font-size: 25px;
+	left: 140px;
+	top: 330px;
+	font-weight: 700;
+	color: rgb( 221, 207, 175);
+
+}
+
+h4 {
+	position: absolute;
+	font-family: "poppins";
+	font-size: 25px;
+	left: 110px;
+	top: 360px;
+	font-weight: 700;
+	color: rgb( 221, 207, 175);
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb( 15,16,31);
+	background-image: url("rock 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+@media (max-width: 554px) {
+	h2{
+		font-size: 100px;
+	}
+}
+
+@media (max-width: 375px) {
+	h2 {
+		font-size: 40px;
+	}	
+
+}
