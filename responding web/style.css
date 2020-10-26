@@ -61,15 +61,36 @@ h4 {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-@media (max-width: 554px) {
-	h2{
-		font-size: 100px;
-	}
-}
 
 @media (max-width: 375px) {
+	h1 {
+		font-size: 12px;
+		top: 185px;
+		right: 20px;
+	}
+
+	p {
+		font-size: 80px;
+		left: 10px;
+		top: -80px;
+	}
+
 	h2 {
-		font-size: 40px;
-	}	
+		font-size: 7px;
+		top: 205px;
+		left: 155px;
+	}
+
+	h3 {
+		font-size: 7px;
+		left: 140px;
+		top: 215px;
+	}
+
+	h4 {
+		font-size: 7px;
+		top: 225px;
+		left: 125px;
+	}
 
 }
