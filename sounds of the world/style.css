@@ -1,0 +1,191 @@
+h1 {
+	position: absolute;
+	font-family: 'Raleway';
+	font-size: 30px;
+	left: 80px;
+	top: 45px;
+	font-weight: 900;
+	color: rgb( 194, 99, 10);
+}
+
+h2 {
+	position: absolute;
+	font-family: 'Raleway';
+	font-size: 80px;
+	left: 30px;
+	top: 5px;
+	font-weight: 900;
+	color: rgb( 242, 135, 5);
+}
+
+.relative-image {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	top: 200px;
+	margin-bottom: 15px;
+	margin-right: 12px;
+	display: inline-block;
+	background-color: rgb( 191, 162, 136) 
+}
+
+.beach1 {
+	background-image: url("beach 1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.beach1:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.beach2 {
+	background-image: url("beach 2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.beach2:hover {
+	top: -340px;
+	left:10px;
+	right: -50px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.beach3 {
+	background-image: url("beach 3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.beach3:hover {
+	top: 50px;
+	left:-300px;
+	right: -100px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.beach4 {
+	background-image: url("beach 4.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.beach4:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.beach5 {
+	background-image: url("beach 5 .jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.beach5:hover {
+	top: -340px;
+	left:10px;
+	right: -50px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.beach6 {
+	background-image: url("beach 6.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.beach6:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.beach7 {
+	background-image: url("beach 7.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.beach7:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.beach8 {
+	background-image: url("beach 8 drink.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.beach8:hover {
+	top: -340px;
+	left:10px;
+	right: -50px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+
+.beach9 {
+	background-image: url("beach 9-wind.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.beach9:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.beach10 {
+	background-image: url("beach 10-dog.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.beach10:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
