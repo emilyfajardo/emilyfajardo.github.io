@@ -2,7 +2,7 @@ h1 {
 	position: absolute;
 	font-family: 'Raleway';
 	font-size: 30px;
-	left: 80px;
+	left: 240px;
 	top: -15px;
 	font-weight: 900;
 	color: rgb( 194, 99, 10);
@@ -29,14 +29,14 @@ h2 {
 	background-color: rgb( 191, 162, 136) 
 }
 
-.beach1 {
-	background-image: url("beach 1.jpg");
+.jungle1 {
+	background-image: url("jungle 1.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: all 1s ease-in-out;
 }
-.beach1:hover {
+.jungle1:hover {
 	top: 10px;
 	left:10px;
 	right: 10px;
@@ -45,14 +45,14 @@ h2 {
 	width: 1650px;
 }
 
-.beach2 {
-	background-image: url("beach 2.jpg");
+.jungle2 {
+	background-image: url("jungle 2.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: all 1s ease-in-out;
 }
-.beach2:hover {
+.jungle2:hover {
 	top: -340px;
 	left:10px;
 	right: -50px;
@@ -61,26 +61,26 @@ h2 {
 	width: 1650px;
 }
 
-.beach3 {
-	background-image: url("beach 3.jpg");
+.jungle3 {
+	background-image: url("jungle 3.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: all 1s ease-in-out;
 }
-.beach3:hover {
+.jungle3:hover {
 	transform: scale(4);
 	left: -200px;
 }
 
-.beach4 {
-	background-image: url("beach 4.jpg");
+.jungle4 {
+	background-image: url("jungle 4.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: all 1s ease-in-out;
 }
-.beach4:hover {
+.jungle4:hover {
 	top: 10px;
 	left:10px;
 	right: 10px;
@@ -89,14 +89,14 @@ h2 {
 	width: 1650px;
 }
 
-.beach5 {
-	background-image: url("beach 5 .jpeg");
+.jungle5 {
+	background-image: url("jungle 5-waterfall.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: all 1s ease-in-out;
 }
-.beach5:hover {
+.jungle5:hover {
 	top: -340px;
 	left:10px;
 	right: -50px;
@@ -105,14 +105,14 @@ h2 {
 	width: 1650px;
 }
 
-.beach6 {
-	background-image: url("beach 6.jpg");
+.jungle6 {
+	background-image: url("jungle 6-monkeys.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: all 1s ease-in-out;
 }
-.beach6:hover {
+.jungle6:hover {
 	top: 10px;
 	left:10px;
 	right: 10px;
@@ -121,14 +121,14 @@ h2 {
 	width: 1650px;
 }
 
-.beach7 {
-	background-image: url("beach 7.jpg");
+.jungle7 {
+	background-image: url("jungle 7-tiger.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: all 1s ease-in-out;
 }
-.beach7:hover {
+.jungle7:hover {
 	top: 10px;
 	left:10px;
 	right: 10px;
@@ -137,14 +137,14 @@ h2 {
 	width: 1650px;
 }
 
-.beach8 {
-	background-image: url("beach 8 drink.jpg");
+.jungle8 {
+	background-image: url("jungle 8-elephant.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: all 1s ease-in-out;
 }
-.beach8:hover {
+.jungle8:hover {
 	top: -340px;
 	left:10px;
 	right: -50px;
@@ -154,30 +154,14 @@ h2 {
 }
 
 
-.beach9 {
-	background-image: url("beach 9-wind.jpg");
+.jungle9 {
+	background-image: url("jungle 9-water.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: all 1s ease-in-out;
 }
-.beach9:hover {
-	top: 10px;
-	left:10px;
-	right: 10px;
-	bottom: 10px;
-	height: 1000px;
-	width: 1650px;
-}
-
-.beach10 {
-	background-image: url("beach 10-dog.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	transition: all 1s ease-in-out;
-}
-.beach10:hover {
+.jungle9:hover {
 	top: 10px;
 	left:10px;
 	right: 10px;
