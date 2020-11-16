@@ -2,7 +2,7 @@ h1 {
 	position: absolute;
 	font-family: 'Raleway';
 	font-size: 30px;
-	left: 240px;
+	left: 100px;
 	top: -15px;
 	font-weight: 900;
 	color: rgb( 194, 99, 10);
@@ -29,14 +29,14 @@ h2 {
 	background-color: rgb( 191, 162, 136) 
 }
 
-.jungle1 {
-	background-image: url("jungle 1.jpg");
+.mount1 {
+	background-image: url("mountain 1.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	transition: all 2s ease-in-out;
+	transition: all 1s ease-in-out;
 }
-.jungle1:hover {
+.mount1:hover {
 	top: 10px;
 	left:10px;
 	right: 10px;
@@ -45,14 +45,14 @@ h2 {
 	width: 1650px;
 }
 
-.jungle2 {
-	background-image: url("jungle 2.jpg");
+.mount2 {
+	background-image: url("mountain 2.jpeg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	transition: all 2s ease-in-out;
+	transition: all 1s ease-in-out;
 }
-.jungle2:hover {
+.mount2:hover {
 	top: -340px;
 	left:10px;
 	right: -50px;
@@ -61,27 +61,57 @@ h2 {
 	width: 1650px;
 }
 
-.jungle3 {
-	background-image: url("jungle 3.jpg");
+.mount3 {
+	background-image: url("mountain 3.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	transition: all 2s ease-in-out;
+	transition: all 1s ease-in-out;
 }
-.jungle3:hover {
+.mount3:hover {
 	transform: scale(4);
 	left: -200px;
-	z-index: 99;
 }
 
-.jungle4 {
-	background-image: url("jungle 4.jpg");
+.mount4 {
+	background-image: url("mountain 4.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	transition: all 2s ease-in-out;
+	transition: all 1s ease-in-out;
 }
-.jungle4:hover {
+.mount4:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+.mount5 {
+	background-image: url("mountain 5 stream.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.mount5:hover {
+	top: -340px;
+	left:10px;
+	right: -50px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.mount6 {
+	background-image: url("mountain 6-dusk.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s ease-in-out;
+}
+.mount6:hover {
 	top: 10px;
 	left:10px;
 	right: 10px;
@@ -90,43 +120,14 @@ h2 {
 	width: 1650px;
 }
 
-.jungle5 {
-	background-image: url("jungle 5-waterfall.jpg");
+.mount7 {
+	background-image: url("mountains 7-night.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	transition: all 2s ease-in-out;
+	transition: all 1s ease-in-out;
 }
-.jungle5:hover {
-	top: -340px;
-	left:10px;
-	right: -50px;
-	bottom: 10px;
-	height: 1000px;
-	width: 1650px;
-}
-
-.jungle6 {
-	background-image: url("jungle 6-monkeys.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	transition: all 2s ease-in-out;
-}
-.jungle6:hover {
-	transform: scale(4);
-	left: -200px;
-	z-index: 99;
-}
-
-.jungle7 {
-	background-image: url("jungle 7-tiger.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	transition: all 2s ease-in-out;
-}
-.jungle7:hover {
+.mount7:hover {
 	top: 10px;
 	left:10px;
 	right: 10px;
@@ -135,14 +136,14 @@ h2 {
 	width: 1650px;
 }
 
-.jungle8 {
-	background-image: url("jungle 8-elephant.jpg");
+.mount8 {
+	background-image: url("mountain 8-goat.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	transition: all 2s ease-in-out;
+	transition: all 1s ease-in-out;
 }
-.jungle8:hover {
+.mount8:hover {
 	top: -340px;
 	left:10px;
 	right: -50px;
@@ -152,17 +153,20 @@ h2 {
 }
 
 
-.jungle9 {
-	background-image: url("jungle 9-water.jpg");
+.mount9 {
+	background-image: url("mountain 9.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	transition: all 2s ease-in-out;
+	transition: all 1s ease-in-out;
 }
-.jungle9:hover {
-	transform: scale(4);
-	left: -200px;
-	z-index: 99;
+.mount9:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
 }
 
 .box {
