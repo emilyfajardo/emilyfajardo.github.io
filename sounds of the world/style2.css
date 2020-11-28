@@ -13,9 +13,19 @@ h2 {
 	font-family: 'Raleway';
 	font-size: 80px;
 	left: 205px;
-	top: 35px;
+	top: 30px;
 	font-weight: 300;
 	color: rgb( 242, 135, 5);
+}
+
+h3 {
+	position: absolute;
+	font-family: 'Raleway';
+	font-size: 12px;
+	left: 638px;
+	top: 165px;
+	font-weight: 400;
+	color: black;
 }
 
 .relative-image {
