@@ -1,0 +1,233 @@
+h1 {
+	position: absolute;
+	font-family: 'Raleway';
+	font-size: 30px;
+	left: 255px;
+	top: 60px;
+	font-weight: 300;
+	color: rgb( 194, 99, 10);
+}
+
+h2 {
+	position: absolute;
+	font-family: 'Raleway';
+	font-size: 80px;
+	left: 205px;
+	top: 20px;
+	font-weight: 300;
+	color: rgb( 242, 135, 5);
+}
+
+.relative-image {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	top: 200px;
+	margin-bottom: 15px;
+	margin-right: 12px;
+	display: inline-block;
+	background-color: rgb( 191, 162, 136) 
+}
+
+.beach1 {
+	background-image: url("beach 1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.beach1:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+	z-index: 99;
+}
+
+.beach2 {
+	background-image: url("beach 2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.beach2:hover {
+	top: -340px;
+	left:10px;
+	right: -50px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+	z-index: 99;
+}
+
+.beach3 {
+	background-image: url("beach 3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.beach3:hover {
+	transform: scale(4);
+	right: 400px;
+	z-index: 99;
+}
+
+.beach4 {
+	background-image: url("seagulls.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.beach4:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.beach5 {
+	background-image: url("beach 5 .jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.beach5:hover {
+	top: -340px;
+	left:10px;
+	right: -50px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.beach6 {
+	background-image: url("beach 6.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.beach6:hover {
+	transform: scale(4);
+	right: 400px;
+	z-index: 99;
+}
+
+.beach7 {
+	background-image: url("beach 7.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.beach7:hover {
+	top: 10px;
+	left:20px;
+	right: 10px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.beach8 {
+	background-image: url("beach 8 drink.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.beach8:hover {
+	top: -340px;
+	left:10px;
+	right: -50px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+
+.beach9 {
+	background-image: url("beach 9-wind.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+
+.beach9:hover {
+	transform: scale(4);
+	right: 400px;
+	z-index: 99;
+}
+
+.box {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1800px;
+	height: 60px;
+	background-color: rgb(191, 162, 136)
+}
+
+.mount {
+	position: absolute;
+	top: 5px;
+	right: 30px;
+}
+
+.mount:hover {
+	position: absolute;
+	background-image: url("mountain o.png");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.tree {
+	position: absolute;
+	top: 10px;
+	right: 190px;
+}
+.tree:hover {
+	position: absolute;
+	background-image: url("jungle o.png");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.wave {
+	position: absolute;
+	top: 5px;
+	right: 310px;
+}
+.wave:hover {
+	position: absolute;
+	background-image: url("wave o.png");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.world {
+	position: absolute;
+	top: 5px;
+	left: 50px;
+}
+.world:hover {
+	position: absolute;
+	background-image: url("world o.png");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}

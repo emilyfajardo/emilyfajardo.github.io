@@ -1,0 +1,239 @@
+h1 {
+	position: absolute;
+	font-family: 'Raleway';
+	font-size: 30px;
+	left: 240px;
+	top: 60px;
+	font-weight: 300;
+	color: rgb( 194, 99, 10);
+}
+
+h2 {
+	position: absolute;
+	font-family: 'Raleway';
+	font-size: 80px;
+	left: 205px;
+	top: 35px;
+	font-weight: 300;
+	color: rgb( 242, 135, 5);
+}
+
+.relative-image {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	top: 200px;
+	margin-bottom: 15px;
+	margin-right: 12px;
+	display: inline-block;
+	background-color: rgb( 191, 162, 136) 
+}
+
+.jungle1 {
+	background-image: url("jungle 1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.jungle1:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 900px;
+	width: 1550px;
+	z-index: 99;
+}
+
+.jungle2 {
+	background-image: url("jungle 2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.jungle2:hover {
+	top: 200px;
+	left:10px;
+	right: -50px;
+	bottom: 10px;
+	height: 900px;
+	width: 1650px;
+	z-index: 99;
+}
+
+.jungle3 {
+	background-image: url("jungle 3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.jungle3:hover {
+	transform: scale(4);
+	right: 400px;
+	z-index: 99;
+}
+
+.jungle4 {
+	background-image: url("jungle 4.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.jungle4:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 900px;
+	width: 1550px;
+}
+
+.jungle5 {
+	background-image: url("jungle 5.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.jungle5:hover {
+	top: -340px;
+	left:10px;
+	right: -50px;
+	bottom: 10px;
+	height: 1000px;
+	width: 1650px;
+}
+
+.jungle6 {
+	background-image: url("jungle 6-monkeys.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.jungle6:hover {
+	transform: scale(4);
+	right: 400px;
+	z-index: 99;
+}
+
+.jungle7 {
+	background-image: url("jungle 7-tiger.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.jungle7:hover {
+	top: 10px;
+	left:10px;
+	right: 10px;
+	bottom: 10px;
+	height: 900px;
+	width: 1650px;
+}
+
+.jungle8 {
+	background-image: url("jungle 8-elephant.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.jungle8:hover {
+	top: -340px;
+	left:10px;
+	right: -50px;
+	bottom: 10px;
+	height: 900px;
+	width: 1650px;
+}
+
+
+.jungle9 {
+	background-image: url("jungle 9.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 2s ease-in-out;
+}
+.jungle9:hover {
+	transform: scale(4);
+	right: 400px;
+	z-index: 99;
+}
+
+.box {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1800px;
+	height: 60px;
+	background-color: rgb(191, 162, 136)
+}
+
+.smallbox {
+	position: absolute;
+	top: 0;
+	right: 410px;
+	width: 100px;
+	height: 60px;
+	background-color: rgb(191, 162, 136)
+}
+
+.mount {
+	position: absolute;
+	top: 5px;
+	right: 30px;
+}
+.mount:hover {
+	position: absolute;
+	background-image: url("mountain o.png");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.tree {
+	position: absolute;
+	top: 10px;
+	right: 190px;
+}
+.tree:hover {
+	position: absolute;
+	background-image: url("jungle o.png");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.wave {
+	position: absolute;
+	top: 5px;
+	right: 310px;
+}
+.wave:hover {
+	position: absolute;
+	background-image: url("wave o.png");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.world {
+	position: absolute;
+	top: 5px;
+	left: 50px;
+}
+.world:hover {
+	position: absolute;
+	background-image: url("world o.png");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
