@@ -1,412 +1,218 @@
-.allshapes {
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb( 101, 114, 101);
+}
+.second {
 	position: absolute;
+	top: 200px;
+	right: 260px;
+	width: 30px;
+	height: 500px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+ 	background-size: contain;
+  	background-position: center center;  
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+  	animation-timing-function: linear;
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
 }
 
-
-.rbig {
-	position:absolute;
-	top: 0;
-	left: -80px;
+.second2 {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	width: 30px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+ 	background-size: contain;
+  	background-position: center center;  
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+  	  	animation-timing-function: linear;
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
 }
 
-.R1 {
-	height:270px;
-	width: 200px;
-	background-color: rgb( 0, 0, 0);
-	border-radius: 0 30px 0 0;
-	top: 100px;
-	left: 100px;
+.second3 {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	width: 30px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+ 	background-size: contain;
+  	background-position: center center;  
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+    	animation-timing-function: linear;
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
 }
 
-
-.R2{
-	top: 250px;
-	left: 160px;
-	width: 0;
-	height: 0;
-	border-top: 140px solid transparent;
-	border-right: 140px solid transparent;
-	border-left: 140px solid rgb( 255, 255, 255);
+.second4 {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	width: 30px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+ 	background-size: contain;
+  	background-position: center center;  
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+  	animation-duration: 5s;
+  	  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
 }
 
-.R4{
-	top: 190px;
-	left: 250px;
-	width : 0;
-	height: 0;
-	border-top: 50px solid transparent;
-	border-bottom: 50px solid transparent;
-	border-right: 80px solid rgb( 255, 255, 255);
+.second5 {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	width: 30px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+ 	background-size: contain;
+  	background-position: center center;  
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+  	  	animation-timing-function: linear;
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
 }
 
-
-.R5{
-	width: 150px;
-	height: 250px;
-	top: 120px;
-	left: 160px;
-	border-left: 5px solid rgb( 150,0,0);
+.min1 {
+	position: absolute;
+	top: 0px;
+	right: 230px;
+	width: 80px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white; 
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+  	animation-duration: 100s;
+  	animation-iteration-count: infinite;
 }
 
-.R5:hover {
-	height: 12000px;
-} 
-
-.abig {
-	position:absolute;
-	top: 0;
-	left: -70px;
+.min2 {
+	position: absolute;
+	top: 0px;
+	right: 100px;
+	width: 80px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+  	animation-name: anim1;
+  	animation-duration: 100s;
+  	animation-iteration-count: infinite;
 }
 
-.A1{
-	height:270px;
-	width: 200px;
-	background-color: rgb( 0, 0, 0);
-	border-radius: 0 30px 0 0;
-	top: 100px;
-	left: 320px;
+.min3 {
+	position: absolute;
+	top: 0px;
+	right: 100px;
+	width: 80px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+  	animation-name: anim1;
+  	animation-duration: 100s;
+  	animation-iteration-count: infinite;
 }
 
-
-.A2{
-	top: 98px;
-	left: 317px;
-	width : 0;
-	height: 0;
-	border-right: 80px solid transparent;
-	border-bottom: 80px solid transparent;
-	border-top: 280px solid rgb( 255, 255, 255);
+.hour1 {
+	position: absolute;
+	top: 0px;
+	right: 270px;
+	width: 160px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+  	animation-name: anim1;
+  	animation-duration: 150s;
+  	animation-iteration-count: infinite;
 }
 
-.A3{
-	top: 98px;
-	left: 450px;
-	width : 0;
-	height: 0;
-	border-right: 10px solid transparent;
-	border-left: 70px solid transparent;
-	border-top: 280px solid rgb( 255, 255, 255);
+.hour2 {
+	position: absolute;
+	top: 0px;
+	right: 190px;
+	width: 160px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+  	animation-name: anim1;
+  	animation-duration: 200s;
+  	animation-iteration-count: infinite;
 }
 
-.A4{
-	top:230px;
-	left: 370px;
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50PX solid transparent;
-	border-top: 100px solid rgb(255, 255, 255);
+@keyframes anim1 {
+	0% {
+		opacity: 0;
+		background-color: white;
+	}
+
+	/*10% {
+		opacity: .4;
+		background-color: white;
+	}*/
+	/*20% {
+		opacity: .6;
+		background-color: white;
+	}*/
+	/*30% {
+		opacity: .8;
+		background-color: white;
+	}*/
+	40% {
+		opacity: 1;
+		background-color: white;
+	}
+	/*50% {
+		opacity: .8;
+		background-color: white;
+	}*/
+	/*60% {
+		opacity: .6;
+		background-color: white;
+	}*/
+	/*70% {
+		opacity: .4;
+		background-color: white;
+	}*/
+	/*80% {
+		opacity: 0;
+		background-color: white;
+	}*/
+	100% {
+		opacity: 0;
+		background-color: white;
+	}
 }
-
-.A5{
-	width: 150px;
-	height: 45px;
-	top: 325px;
-	left: 418px;
-	border-left: 5px solid rgb( 150,0,0);
-}
-
-.A5:hover {
-	height: 12000px;
-}
-
-.nbig {
-	position:absolute;
-	top: 0;
-	left: -60px;
-}
-
-.N1 {
-	height:270px;
-	width: 200px;
-	background-color: rgb( 0, 0, 0);
-	border-radius: 0 0 30px 0;
-	top: 100px;
-	left: 540px;
-}
-
-.N2{
-	width: 150px;
-	height: 200px;
-	top: 170px;
-	left: 690px;
-	border-left: 5px solid rgb( 150,0,0);
-}
-
-.N2:hover {
-	height: 12000px;
-}
-
-.N3 {
-	top: 300px;
-	left: 490px;
-	width: 0;
-	height: 0;
-	border-left: 200px solid transparent;
-	border-right: 90px solid transparent;
-	border-bottom: 95px solid rgb(255, 255, 255);
-	transform: rotate(90deg);
-}
-
-.gbig {
-	position:absolute;
-	top: 0;
-	left: -50px;
-}
-
-.G1{
-	height:270px;
-	width: 200px;
-	background-color: rgb( 0, 0, 0);
-	border-radius: 0 30px 30px 30px;
-	top: 100px;
-	left: 770px;
-}
-
-.G2 {
-	height: 70px;
-	width: 159px;
-	background-color: rgb( 255,255,255);
-	border-radius: 25px 0 0 0;
-	left: 812px;
-	top: 173px;
-}
-
-.G3{
-	top: 80px;
-	left: 870px;
-	height: 0;
-	width: 0;
-	border-right: 100px solid transparent;
-	border-bottom: 120px solid transparent;
-	border-top: 48px solid rgb( 0, 0, 0);
-	transform: rotate(180deg);
-}
-
-.G4{
-	top: -40px;
-	left: 870px;
-	height: 0;
-	width: 0;
-	border-right: 200px solid transparent;
-	border-bottom: 200px solid transparent;
-	border-top: 95px solid rgb( 255, 255, 255);
-	transform: rotate(180deg);
-}
-
-.G5{
-	width: 170px;
-	height: 150px;
-	top: 100px;
-	left: 800px;
-	border-bottom: 5px solid rgb( 150,0,0);
-}
-
-.G5:hover {
-	width: 12000px;
-}
-
-.G6{
-	width: 180px;
-	height: 90px;
-	top: 165px;
-	left: 800px;
-	border-left: 5px solid rgb( 150,0,0);
-	border-radius: 30px 0;
-}
-
-.G6:hover {
-	height: 12000px;
-}
-
-.G7{	
-	width: 166px;
-	height: 95px;
-	top: 162px;
-	left: 803px;
-	border-top: 5px solid rgb( 150,0,0);
-	border-radius: 30px 0;
-}
-
-.G8:hover {
-	height: 12000px;
-}
-
-.ebig {
-	position:absolute;
-	top: 0;
-	left: -40px;
-}
-
-.E1 {
-	width: 200px;
-	height: 270px;
-	background-color: rgb( 0, 0, 0);
-	top: 100px;
-	left: 1000px;
-	border-radius: 30px 0 0 30px;
-}
-
-.E2 {
-	top: 210px;
-	left: 1000px;
-	height: 0;
-	width: 0;
-	border-bottom: 40px solid transparent;
-	border-top: 40px solid transparent;
-	border-left: 100px solid rgb( 255, 255, 255);
-
-}
-
-.E2:hover {
-	transform: scale(4);
-}
-
-.E3 {
-	top: 255px;
-	left: 1010px;
-	height: 0;
-	width: 0;
-	border-left: 0px solid transparent;
-	border-right: 120px solid transparent;
-	border-top: 40px solid rgb( 255, 255, 255);
-}
-
-.E4{
-	width: 150px;
-	height: 100px;
-	top: 140px;
-	left: 908px;
-	border-right: 5px solid rgb( 255,255,255);
-}
-
-.E5{
-	width: 150px;
-	height: 100px;
-	top: 250px;
-	left: 908px;
-	border-right: 5px solid rgb( 255,255,255);
-}
-
-.E6 {
-	width: 180px;
-	height: 300px;
-	top: 130px;
-	left: 1000px;
-	border-top: 7px solid rgb(150, 0, 0);
-}
-
-.E6:hover {
-	width: 12000px;
-}
-
-.E7 {
-	width: 180px;
-	height: 300px;
-	top: 340px;
-	left: 1000px;
-	border-top: 7px solid rgb(150, 0, 0);
-}
-
-.E7:hover {
-	width: 12000px;
-}
-
-.sbig {
-	position:absolute;
-	top: 0;
-	left: -30px;
-}
-
-.S1 {
-	width: 200px;
-	height: 270px;
-	background-color: rgb( 0, 0, 0);
-	top: 100px;
-	left: 1220px;
-	border-radius: 30px 0 30px;
-}
-
-.S2 {
-	width: 130px;
-	height: 90px;
-	top: 230px;
-	left: 1220px;
-	border-bottom: 5px solid rgb( 150,0,0);
-	border-radius: 30px 0;
-}
-
-.S2:hover {
-	width:12000px;
-}
-
-.S3 {
-	width: 130px;
-	height: 90px;
-	top: 160px;
-	left: 1290px;
-	border-top: 5px solid rgb( 150,0,0);
-	border-radius: 30px 0;
-}
-
-.S3:hover {
-	width: 12000px;
-}
-
-.S4 {
-	top: 183px;
-	left: 1255px;
-	width: 0;
-	height: 0;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-top: 30px solid rgb( 255, 255, 255);
-	transform: rotate( 90deg);
-}
-
-.S4:hover {
-	transform: scale(4);
-}
-
-.S5{
-	top: 270px;
-	left: 1330px;
-	width: 0;
-	height: 0;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-bottom: 30px solid rgb( 255, 255, 255);
-	transform: rotate( 90deg);
-
-}
-
-.S5:hover {
-	transform: scale(4);
-}
-
-h1 {
-	font-size: 90px;
-	margin-bottom: -4px;
-}
-
-p {
-	width: 520px;
-	color: rgb( 0,0,0);
-	font-family: Palatino;
-	font size: 18px;
-	line-height: 25px;
-	font-weight: normal;
-	text-align: left;
-}
-
-	top: 210px;
-	left: 1010px;
-	height: 0;
-	width: 0;
-	border-left: 0px solid transparent;
-	border-right: 120px solid transparent;
-	border-bottom: 40px solid rgb( 255, 255, 255);
-
-}
-
-
