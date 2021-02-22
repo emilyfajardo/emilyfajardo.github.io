@@ -1,0 +1,218 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb( 101, 114, 101);
+}
+.second {
+	position: absolute;
+	top: 200px;
+	right: 260px;
+	width: 30px;
+	height: 500px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+ 	background-size: contain;
+  	background-position: center center;  
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+  	animation-timing-function: linear;
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+
+.second2 {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	width: 30px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+ 	background-size: contain;
+  	background-position: center center;  
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+  	  	animation-timing-function: linear;
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+
+.second3 {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	width: 30px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+ 	background-size: contain;
+  	background-position: center center;  
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+    	animation-timing-function: linear;
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+
+.second4 {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	width: 30px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+ 	background-size: contain;
+  	background-position: center center;  
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+  	animation-duration: 5s;
+  	  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
+}
+
+.second5 {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	width: 30px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+ 	background-size: contain;
+  	background-position: center center;  
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+  	  	animation-timing-function: linear;
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+
+.min1 {
+	position: absolute;
+	top: 0px;
+	right: 230px;
+	width: 80px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white; 
+  	background-repeat: no-repeat;
+  	animation-name: anim1;
+  	animation-duration: 100s;
+  	animation-iteration-count: infinite;
+}
+
+.min2 {
+	position: absolute;
+	top: 0px;
+	right: 100px;
+	width: 80px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+  	animation-name: anim1;
+  	animation-duration: 100s;
+  	animation-iteration-count: infinite;
+}
+
+.min3 {
+	position: absolute;
+	top: 0px;
+	right: 100px;
+	width: 80px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+  	animation-name: anim1;
+  	animation-duration: 100s;
+  	animation-iteration-count: infinite;
+}
+
+.hour1 {
+	position: absolute;
+	top: 0px;
+	right: 270px;
+	width: 160px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+  	animation-name: anim1;
+  	animation-duration: 150s;
+  	animation-iteration-count: infinite;
+}
+
+.hour2 {
+	position: absolute;
+	top: 0px;
+	right: 190px;
+	width: 160px;
+	height: 500px;
+	margin-bottom: 20px;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+  	animation-name: anim1;
+  	animation-duration: 200s;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes anim1 {
+	0% {
+		opacity: 0;
+		background-color: white;
+	}
+
+	/*10% {
+		opacity: .4;
+		background-color: white;
+	}*/
+	/*20% {
+		opacity: .6;
+		background-color: white;
+	}*/
+	/*30% {
+		opacity: .8;
+		background-color: white;
+	}*/
+	40% {
+		opacity: 1;
+		background-color: white;
+	}
+	/*50% {
+		opacity: .8;
+		background-color: white;
+	}*/
+	/*60% {
+		opacity: .6;
+		background-color: white;
+	}*/
+	/*70% {
+		opacity: .4;
+		background-color: white;
+	}*/
+	/*80% {
+		opacity: 0;
+		background-color: white;
+	}*/
+	100% {
+		opacity: 0;
+		background-color: white;
+	}
+}
