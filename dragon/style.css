@@ -41,13 +41,14 @@ body {
 
 .score {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 15px;
+  right: 480px;
   width: 40px;
   height: 40px;
   line-height: 40px;
   border-radius: 30%;
-  background-color: rgb(251, 176, 59);
+  background-color: rgb(234, 195, 111);
+  border: 3px solid rgb( 171, 188, 97);
   color: white;
   font-family: Georgia, sans-serif;
   font-weight: bold;
@@ -113,9 +114,9 @@ body {
 
 .npc {
   position: absolute;
-  width: 170px;
-  height: 170px;
-  bottom: 470px;
+  width: 250px;
+  height: 250px;
+  bottom: 450px;
   background-image: url("./img/npc-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
@@ -126,8 +127,10 @@ body {
 }
 
 .npc.was-interacted {
-  opacity: 0;
-  transition: opacity 400ms linear;
+  background-image: url("./img/npc-sprite-after.png");
+  animation-timing-function: steps(8);
+  bottom: 0;
+  transition: bottom 900ms linear;
 }
 
 .preload-image {
