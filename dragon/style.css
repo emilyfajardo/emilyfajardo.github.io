@@ -50,7 +50,7 @@ body {
   background-color: rgb(234, 195, 111);
   border: 3px solid rgb( 171, 188, 97);
   color: white;
-  font-family: Georgia, sans-serif;
+  font-family: Verdana, sans-serif;
   font-weight: bold;
   font-size: 22px;
   text-align: center;
@@ -120,7 +120,7 @@ body {
   background-image: url("./img/npc-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
-  animation-duration: 800ms;
+  animation-duration: 900ms;
   animation-timing-function: steps(3); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
   pointer-events: none;
@@ -130,7 +130,8 @@ body {
   background-image: url("./img/npc-sprite-after.png");
   animation-timing-function: steps(8);
   bottom: 0;
-  transition: bottom 900ms linear;
+  transition: bottom 3000ms linear;
+
 }
 
 .preload-image {
